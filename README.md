@@ -28,21 +28,26 @@
 ## 🗂 Project Structure
 
 com.bankingsystem
+
 ├── config # Spring Security & Application Configuration
 
 ├── controller # REST Controllers
 
 ├── dto # Data Transfer Objects
-├── entity # Database Entities (User, Account, Transaction)
-├── repository # JPA Repositories
-├── service # Service Interfaces
-│ └── impl # Service Implementations
-├── security # Security Utilities
-├── exception # Custom Exception Handling
-└── util # Enums & Helpers (e.g., AccountStatus, TransactionType)
 
-yaml
-Copy code
+├── entity # Database Entities (User, Account, Transaction)
+
+├── repository # JPA Repositories
+
+├── service # Service Interfaces
+
+│ └── impl # Service Implementations
+
+├── security # Security Utilities
+
+├── exception # Custom Exception Handling
+
+└── util # Enums & Helpers (e.g., AccountStatus, TransactionType)
 
 ---
 
@@ -102,15 +107,6 @@ System ensures data integrity and handles exceptions.
 
 👤 Author
 Tamanna Singh
-
-GitHub: tamannah1234
-
-📄 License
-MIT License – open-source project.
-
-yaml
-Copy code
-
 ---
 
 
