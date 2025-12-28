@@ -29,7 +29,9 @@
 
 com.bankingsystem
 ├── config # Spring Security & Application Configuration
+
 ├── controller # REST Controllers
+
 ├── dto # Data Transfer Objects
 ├── entity # Database Entities (User, Account, Transaction)
 ├── repository # JPA Repositories
