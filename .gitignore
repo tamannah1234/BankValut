@@ -20,6 +20,7 @@ target/
 *.ipr
 ### Ignore application.properties
 src/main/resources/application.properties
+/src/main/resources/application.properties.local
 
 ### NetBeans ###
 /nbproject/private/
