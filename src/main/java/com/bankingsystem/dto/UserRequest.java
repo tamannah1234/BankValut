@@ -1,13 +1,10 @@
 package com.bankingsystem.dto;
 
-import com.bankingsystem.util.Role;
-
 public class UserRequest {
 
     private String name;
     private String email;
     private String password;
-    private Role role;
 
     // No-args constructor
     public UserRequest() {
@@ -38,14 +35,5 @@ public class UserRequest {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    // Getter & Setter for role
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
     }
 }
